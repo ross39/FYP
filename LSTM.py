@@ -12,9 +12,9 @@ import matplotlib.pyplot as plt
 import scikitplot.plotters as skplt
 
 
-top_words = 5000
-epoch_num = 5
-batch_size = 64
+top_words = 10000
+epoch_num = 8
+batch_size = 100
 
 def plot_cmat(yte, ypred):
     '''Plotting confusion matrix'''

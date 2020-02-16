@@ -19,7 +19,7 @@ def plot_cmat(yte, ypred):
     plt.show()
 
 
-xtr,xte,ytr,yte = getEmbeddings("Data/News_Dataset#2/train.csv")
+xtr,xte,ytr,yte = getEmbeddings("Data/News_Dataset/ultimate.csv")
 np.save('./xtr', xtr)
 np.save('./xte', xte)
 np.save('./ytr', ytr)
@@ -38,8 +38,11 @@ def baseline_model():
     model.add(Dropout(0.3))
     model.add(Dense(256, activation='relu', kernel_initializer='normal'))
     model.add(Dropout(0.5))
+    model.add(Dense(256, activation='relu', kernel_initializer='normal'))
+    model.add(Dropout(0.7))
     model.add(Dense(80, activation='relu', kernel_initializer='normal'))
     model.add(Dense(2, activation="softmax", kernel_initializer='normal'))
+
 
     # gradient descent
     sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
@@ -57,7 +60,7 @@ label_encoder.fit(y_train)
 encoded_y = np_utils.to_categorical((label_encoder.transform(y_train)))
 label_encoder.fit(y_test)
 encoded_y_test = np_utils.to_categorical((label_encoder.transform(y_test)))
-estimator = model.fit(x_train, encoded_y, epochs=20, batch_size=64)
+estimator = model.fit(x_train, encoded_y, epochs=35, batch_size=100)
 print("Model Trained!")
 score = model.evaluate(x_test, encoded_y_test)
 print("")

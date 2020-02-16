@@ -29,7 +29,7 @@ def constructLabeledSentences(data):
     return sentences
 
 def clean_data():
-    path = 'Data/News_Dataset#2/train.csv'
+    path = 'Data/News_Dataset/ultimate.csv'
     vector_dimension=300
 
     data = pd.read_csv(path)
