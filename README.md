@@ -6,6 +6,7 @@
 * [License](#license)
 
 ## Description
+Hello and welcome to this GitHub repo that contains all the code and dissertation for my final year project. This project is about creating ML models that can predict fake news. The model will be deployed to the cloud and users can interact with it via a chrome extension. This is still under active development so not all features are present.
 
 
 ## Sections
