@@ -8,6 +8,7 @@ A level-1 auxiliary file: sysdesign.aux
 A level-1 auxiliary file: sysevaluation.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: unsrt.bst
+<<<<<<< HEAD
 I found no \citation commands---while reading file main.aux
 Database file #1: references.bib
 You've used 0 entries,
@@ -43,12 +44,54 @@ skip$ -- 1
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
+=======
+Database file #1: references.bib
+You've used 2 entries,
+            1791 wiz_defined-function locations,
+            466 strings with 4060 characters,
+and the built_in function-call counts, 530 in all, are:
+= -- 47
+> -- 25
+< -- 0
++ -- 9
+- -- 7
+* -- 46
+:= -- 91
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 18
+empty$ -- 48
+format.name$ -- 7
+if$ -- 109
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 2
+pop$ -- 2
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 7
+stack$ -- 0
+substring$ -- 47
+swap$ -- 2
+>>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
+<<<<<<< HEAD
 while$ -- 0
 width$ -- 0
 write$ -- 2
 (There was 1 error message)
+=======
+while$ -- 6
+width$ -- 3
+write$ -- 24
+>>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5

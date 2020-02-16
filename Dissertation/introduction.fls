@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 PWD /Users/rossheaney/Desktop/Workspace/FourthYear/FYP/FakeNewsPrototype/Dissertation
+=======
+PWD /Users/rossheaney/Downloads/sw4LatexDissertationTemplate (1)
+>>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT introduction.tex
 OUTPUT introduction.log
+<<<<<<< HEAD
+=======
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+>>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5

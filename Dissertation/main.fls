@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 PWD /Users/rossheaney/Desktop/Workspace/FourthYear/FYP/FakeNewsPrototype/Dissertation
+=======
+PWD /Users/rossheaney/Downloads/sw4LatexDissertationTemplate (1)
+>>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -92,6 +96,7 @@ INPUT ./gmit-logo.jpg
 OUTPUT main.pdf
 INPUT ./gmit-logo.jpg
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+<<<<<<< HEAD
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
@@ -99,11 +104,20 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+=======
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
+>>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT main.toc
 INPUT main.toc
+<<<<<<< HEAD
 OUTPUT main.toc
+=======
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT main.toc
+INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+>>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
 INPUT main.lof
 INPUT main.lof
 OUTPUT main.lof
@@ -129,6 +143,10 @@ INPUT conclusion.tex
 INPUT conclusion.tex
 INPUT main.bbl
 INPUT main.bbl
+<<<<<<< HEAD
+=======
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+>>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
 INPUT main.aux
 INPUT introduction.aux
 INPUT introduction.aux
@@ -144,7 +162,13 @@ INPUT conclusion.aux
 INPUT conclusion.aux
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+<<<<<<< HEAD
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
+=======
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+>>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
