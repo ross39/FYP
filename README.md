@@ -35,7 +35,7 @@ Why use chrome? It has the largest market share of the mobile and desktop web br
 
 ### Part 5. 
 #### Dissertation 
-Fairly self explainatory. I need to write up all this work into a document many pages long :smiley:
+Fairly self explainatory. I need to write up all this work into a document many pages long :smiley: </br>
 I'm using LaTeX for this.
 
 
@@ -44,7 +44,7 @@ I'm using LaTeX for this.
 To get started just clone this repo or you can use gitpod to load the project in an online virtual enviroment</br>
 LINK TO GITPOD =====> https://www.gitpod.io/.
 
-gitpod is really neat and I'd recommne checking this out.
+gitpod is really neat and I'd recommned checking this out.
 
 ### Prerequisites
 
