@@ -6,7 +6,9 @@
 * [License](#license)
 
 ## Description
-Hello and welcome to this GitHub repo that contains all the code and dissertation for my final year project. This project is about creating ML models that can predict fake news. The model will be deployed to the cloud and users can interact with it via a chrome extension. This is still under active development so not all features are present.
+Hello and welcome to this GitHub repo that contains all the code and dissertation for my final year project. This project is about creating ML models that can predict fake news. The model will be deployed to the cloud and users can interact with it via a chrome extension.
+
+:exclamation:This is still under active development so not all features are present.
 
 ## What is Fake News?
 Fake news (also known as junk news, pseudo-news, or hoax news) is a form of news consisting of deliberate disinformation or hoaxes spread via traditional news media (print and broadcast) or online social media. This is the definition from Wikipedia and I think it's an accurate description. Fake news is becoming more and more prevalent so I thought it was time to do something to help stop the spread of fake news. I have created and tested a number of machine learning models on a dataset containing approximately 50,000 instances of labelled fake news. It took some time to scrape the data and I also got some data from the Kaggle dataset repository. I used pandas to concatinate the csv files using dataframes. I then used pandas to clean the data(Ensuring only 1s and 0s in the label column and a few other things). 
