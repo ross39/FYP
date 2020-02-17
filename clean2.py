@@ -22,10 +22,6 @@ def cleanup(text):
     text = text.translate(str.maketrans("", "", string.punctuation))
     return text
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
 def constructLabeledSentences(data):
     sentences = []
     for index, row in data.iteritems():
@@ -33,39 +29,24 @@ def constructLabeledSentences(data):
     return sentences
 
 def clean_data():
-<<<<<<< HEAD
     path = 'Data/News_Dataset/ultimate.csv'
-=======
     path = 'datasets/train.csv'
->>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
     vector_dimension=300
 
     data = pd.read_csv(path)
 
     missing_rows = []
     for i in range(len(data)):
-<<<<<<< HEAD
         if data.loc[i, 'content'] != data.loc[i, 'content']:
-=======
-        if data.loc[i, 'text'] != data.loc[i, 'text']:
->>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
             missing_rows.append(i)
     data = data.drop(missing_rows).reset_index().drop(['index','id'],axis=1)
 
     for i in range(len(data)):
-<<<<<<< HEAD
         data.loc[i, 'content'] = cleanup(data.loc[i,'content'])
 
     data = data.sample(frac=1).reset_index(drop=True)
 
     x = data.loc[:,'content'].values
-=======
-        data.loc[i, 'text'] = cleanup(data.loc[i,'text'])
-
-    data = data.sample(frac=1).reset_index(drop=True)
-
-    x = data.loc[:,'text'].values
->>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
     y = data.loc[:,'label'].values
 
     train_size = int(0.8 * len(y))

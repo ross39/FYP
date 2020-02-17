@@ -1,5 +1,4 @@
 import numpy as np
-from keras.datasets import imdb
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
@@ -15,7 +14,6 @@ import scikitplot.plotters as skplt
 top_words = 10000
 epoch_num = 8
 batch_size = 100
-=======
 top_words = 5000
 epoch_num = 5
 batch_size = 64

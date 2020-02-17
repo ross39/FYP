@@ -14,20 +14,16 @@ def plot_cmat(yte, ypred):
     plt.show()
 
 
-<<<<<<< HEAD
 xtr,xte,ytr,yte = getEmbeddings("Data/News_Dataset/ultimate.csv")
-=======
-xtr,xte,ytr,yte = getEmbeddings("Data/News_Dataset#2/train.csv")
->>>>>>> 30ef7bd4361ab47f7cb94326624fc93df9dc76b5
 np.save('./xtr', xtr)
 np.save('./xte', xte)
 np.save('./ytr', ytr)
 np.save('./yte', yte)
 
-xtr = np.load('./xtr.npy')
-xte = np.load('./xte.npy')
-ytr = np.load('./ytr.npy')
-yte = np.load('./yte.npy')
+xtr = np.load('./xtr.npy', allow_pickle = True)
+xte = np.load('./xte.npy', allow_pickle = True)
+ytr = np.load('./ytr.npy', allow_pickle = True)
+yte = np.load('./yte.npy', allow_pickle = True)
 
 clf = SVC()
 clf.fit(xtr, ytr)
