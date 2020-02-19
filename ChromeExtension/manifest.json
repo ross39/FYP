@@ -2,7 +2,7 @@
     "name": "Fake news detector",
     "version": "1.0",
     "description": "Detect fake news on the internet!",
-    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "permissions": ["activeTab", "declarativeContent", "storage", "webNavigation", "http://localhost/"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
