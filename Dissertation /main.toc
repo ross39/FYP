@@ -2,9 +2,10 @@
 \contentsline {section}{\numberline {1.1}Context}{3}% 
 \contentsline {section}{\numberline {1.2}My project}{4}% 
 \contentsline {subsection}{\numberline {1.2.1}Models}{4}% 
+\contentsline {subsubsection}{Support Vector Machine(SVM)}{5}% 
 \contentsline {subsection}{\numberline {1.2.2}Data}{5}% 
-\contentsline {subsection}{\numberline {1.2.3}Testing}{5}% 
-\contentsline {subsection}{\numberline {1.2.4}Deployment}{5}% 
+\contentsline {subsection}{\numberline {1.2.3}Testing}{6}% 
+\contentsline {subsection}{\numberline {1.2.4}Deployment}{6}% 
 \contentsline {chapter}{\numberline {2}Methodology}{7}% 
 \contentsline {subsection}{\numberline {2.0.1}Data}{7}% 
 \contentsline {subsection}{\numberline {2.0.2}Models}{7}% 
@@ -12,6 +13,8 @@
 \contentsline {subsubsection}{Long Short Term Memory LSTM}{8}% 
 \contentsline {subsection}{\numberline {2.0.3}Testing and Validation}{9}% 
 \contentsline {subsubsection}{Cross Validation}{9}% 
+\contentsline {subsubsection}{Regularization}{10}% 
+\contentsline {subsubsection}{Dropout}{10}% 
 \contentsline {subsection}{\numberline {2.0.4}Deployment}{10}% 
 \contentsline {chapter}{\numberline {3}Technology Review}{11}% 
 \contentsline {chapter}{\numberline {4}System Design}{13}% 

@@ -36,6 +36,24 @@ I designed and implemented five machine learning models during the course of thi
 	\item Neural Net using Tensorflow
 \end{itemize}
 
+I will breifly list why I chose these 5 models for this project. I will dicuss at a basic leve their pros and cons. I will dicuss in more depth how they work but for now I will give a high level overview of each model and it's architecture.
+
+\subsubsection{Support Vector Machine(SVM)}
+In machine learning, support-vector machines (SVMs, also support-vector networks) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. Traditionally SVM's have been seen as having primary usage in linear classification, However SVMs can efficiently perform a non-linear classification using what is called the kernel trick, implicitly mapping their inputs into high-dimensional feature spaces. Feature space refers to the n-dimensions where your variables live (not including a target variable, if it is present).For example, consider the data set with:
+
+\textbf{Target} 
+$$1. \textbf{Y} \equiv Thickness of car tires after some testing period$$
+
+
+\textbf{Variables} 
+$$1. X_1 \equiv Distance travelled in test $$
+$$2. X_2 \equiv Time duration of the test $$
+$$3. X_3 \equiv Amount of chemical \textbf{C} in tires$$
+
+$$The feature space is \mathcal{R^3} $$
+
+
+
 \subsection{Data}
 Data used to train the models was retrived from two websites. Those websites are kaggle and github. I decided to make a number of csv files out of the data from the two sources in order to test the models accuracy. In terms of cleaning the data I wrote two scripts called clean.py and clean2.py. The data wasn't very clean and uniform. Certain fields were missing as well as the data containing an awful lot of non english characters. I had to spend a number of weeks cleaning the data to ensure that I used good data to train the models. I also used this time to validata a random sample of the data to ensure as best I could that the data was accuractely labelled. Due to the size of the data I was unable to verify all the data was accuracte but I was happy with the accuracy of the random sample so I am confident that the data is accurate.
 \subsection{Testing}
