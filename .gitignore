@@ -133,5 +133,5 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-# Text files containing sensitive tokens 
-.txt
+# Text files containing sensitive tokens
+tokenfile.txt
