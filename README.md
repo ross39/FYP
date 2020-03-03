@@ -6,7 +6,7 @@
 * [License](#license)
 
 ## Description
-Hello and welcome to this GitHub repo that contains all the code and dissertation for my final year project. This project is about creating ML models that can predict fake news. The model will be deployed to the cloud and users can interact with it via a chrome extension.
+
 
 :exclamation:This is still under active development so not all features are present.
 
@@ -32,8 +32,7 @@ The main part of the project. There are many different types of model architectu
 I will fill out this part when I actually deploy the model. I plan on putting the model into a container (Docker) and using AWS or Heroku to deploy the model. I will need to figure out a continous deployment solution so the model can continue to improve. I realise there is diminishing returns and to improve I will have to redesign the architecture or begin stacking the models.
 
 ### Part 4. 
-#### Chrome extension 
-Why use chrome? It has the largest market share of the mobile and desktop web browsers. The idea behind this is that a user can install the extension and the model will predict the probability of the content they are viewing is real or fake. This is more of a proof of concept than anything else and it will undoubtly be rough around the edges 
+
 
 ### Part 5. 
 #### Dissertation 
