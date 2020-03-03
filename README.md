@@ -21,7 +21,11 @@ This readme is part of the documentation for this project so I am updating this 
 
 ### Part 1. 
 #### Data cleaning 
-This is the most important part of the project as bad data == bad models. Data was gathered from kaggle and github(need to include refrence here). Tests were performed on the data I gathered myself vs the data I got from Kaggle. The reason being that I knew that the data from kaggle had already been cleaned and labelled therefore I had a good baseline to work off. I then tested my models against the data I gathered vs the kaggle with the models performing at similar levels. I then used pandas to combine the two csv files and did further testing. The extra data did help with the training and validation of results 
+This is the most important part of the project as bad data == bad models. Data was gathered from kaggle and github(need to include refrence here). Tests were performed on the data I gathered myself vs the data I got from Kaggle. The reason being that I knew that the data from kaggle had already been cleaned and labelled therefore I had a good baseline to work off. I then tested my models against the data I gathered vs the kaggle with the models performing at similar levels. I then used pandas to combine the two csv files and did further testing. The extra data did help with the training and validation of results
+
+#### Feature Extraction
+The embeddings used for the majority of our modelling are generated using the Doc2Vec model. The goal is to produce a vector representation of each article. Before applying Doc2Vec, we perform some basic pre-processing of the data. This includes removing stopwords, deleting special characters and punctuation, and converting all text to lowercase. This produces a comma-separated list of words, which can be input into the Doc2Vec algorithm to produce an 300-length embedding vector for each article.
+Doc2Vec is a model developed in 2014 based on the existing Word2Vec model, which generates vector representations for words . Word2Vec represents documents by combining the vectors of the individual words, but in doing so it loses all word order information. Doc2Vec expands on Word2Vec by adding a ”document vector” to the output representation, which contains some information about the document as a whole, and allows the model to learn some information about word order. Preservation of word order information makes Doc2Vec useful for our application, as we are aiming to detect subtle differences between text documents.
 
 ### Part 2. 
 #### Models 
