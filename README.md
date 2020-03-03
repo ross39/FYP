@@ -6,7 +6,7 @@
 * [License](#license)
 
 ## Description
-
+This project is aimed at discovering trends in fake news on social media. At the minute I am using apache kafka to live stream tweets from twitter and using machine learning to analyse the tweets. I aim to display in the trends on a webapp in real time.
 
 :exclamation:This is still under active development so not all features are present.
 
