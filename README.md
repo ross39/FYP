@@ -6,7 +6,7 @@
 * [License](#license)
 
 ## Description
-This project is aimed at discovering trends in fake news on social media. At the minute I am using apache kafka to live stream tweets from twitter and using machine learning to analyse the tweets. I aim to display in the trends on a webapp in real time.
+This project is aimed at discovering trends in fake news on social media. At the minute I am using apache kafka to live stream tweets from twitter and using machine learning to analyse the tweets. I aim to display the trends in fake news using an analytics dashboard that the user can interact with using D3.js and flask
 
 :exclamation:This is still under active development so not all features are present.
 
@@ -33,7 +33,7 @@ The main part of the project. There are many different types of model architectu
 
 ### Part 3. 
 #### Deployment 
-I will fill out this part when I actually deploy the model. I plan on putting the model into a container (Docker) and using AWS or Heroku to deploy the model. I will need to figure out a continous deployment solution so the model can continue to improve. I realise there is diminishing returns and to improve I will have to redesign the architecture or begin stacking the models.
+I will fill out this part when I actually deploy the model. I plan on putting the application into a container (Docker) and using AWS or Heroku to deploy the application. I will need to figure out a continous deployment solution so the model can continue to improve. I realise there is diminishing returns and to improve I will have to redesign the architecture or begin stacking the models.
 
 ### Part 4. 
 
