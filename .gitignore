@@ -134,4 +134,4 @@ dmypy.json
 .pytype/
 
 # Text files containing sensitive tokens
-tokenfile.txt
+tokens.py
