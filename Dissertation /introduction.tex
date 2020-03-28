@@ -18,46 +18,24 @@ In Ireland fake news is heavily prevalent. Irish people are among the biggest co
 This problem is getting worse. There is just too much to be gained from spreading fake news that it's becoming more and more prevalent. Much like telephone scams, we often think how can people believe such utter nonsense especially when it comes to badly faked news articles and stories shared on social media and other outlets. However this type of fake news is just the surface. The real danger lies in the stories and other types of information that are expertly crafted to make us believe them. The best lies are often coated in a layer of truth which makes the job of labelling and classifying fake news extremely difficult.
 
 \section{My project}
-My project aims to combat this problem. I aim to build and test a number of machine learning models that can classify fake news. I will then select the best model based on the tests performed and deploy that to the cloud so that users can interact with the model to hopefully minimise the spread of fake news. I will give a brief introduction to each part of the project. I will dicuss these parts in much more depth in the Methodology and System design sections of the dissertation.
+My project aims to combat this problem. I aim to build and test a number of machine learning models that can classify fake news. I then aim to create a web application that recieves live data from twitter and a user can see the spread of fake news surrounding a certain topic.
 
 I have two objectives for this project.
 \begin{itemize}
-  \item Create and test a multitude of machine learning models to classify fake news 
-  \item Deploy the best model via a chrome extension and have it classify fake news 
+  \item Create and test a multitude of machine learning models on a large dataset to correctly classify fake news
+  \item Deploy the best model and have it classify fake news on live data with a reasonable degree of accuracy(90\%)
 \end{itemize}
 
-\subsection{Models}
-I designed and implemented five machine learning models during the course of this project. The models are listed below 
+Success will be measured on accuracy of detecting fake news on the unseen dataset as well as detecting fake news on the live dataset. The live data will be much harder to determine success as the data will be fresh data that has never been classified by a human or a computer.
+
+\section{Breakdown of the project}
+
+This project consists of two main sections
+
 \begin{itemize}
-	\item Support Vector Machine(SVM).
-	\item Long Short Term Memort(LSTM).
-	\item Naive Bayes 
-	\item Neural Net using Keras
-	\item Neural Net using Tensorflow
+	\item The code and documentation
+	\item The dissertation
 \end{itemize}
 
-I will breifly list why I chose these 5 models for this project. I will dicuss at a basic leve their pros and cons. I will dicuss in more depth how they work but for now I will give a high level overview of each model and it's architecture.
+\
 
-\subsubsection{Support Vector Machine(SVM)}
-In machine learning, support-vector machines (SVMs, also support-vector networks) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. Traditionally SVM's have been seen as having primary usage in linear classification, However SVMs can efficiently perform a non-linear classification using what is called the kernel trick, implicitly mapping their inputs into high-dimensional feature spaces. Feature space refers to the n-dimensions where your variables live (not including a target variable, if it is present).For example, consider the data set with:
-
-\textbf{Target} 
-$$1. \textbf{Y} \equiv Thickness of car tires after some testing period$$
-
-
-\textbf{Variables} 
-$$1. X_1 \equiv Distance travelled in test $$
-$$2. X_2 \equiv Time duration of the test $$
-$$3. X_3 \equiv Amount of chemical \textbf{C} in tires$$
-
-$$The feature space is \mathcal{R^3} $$
-
-
-
-\subsection{Data}
-Data used to train the models was retrived from two websites. Those websites are kaggle and github. I decided to make a number of csv files out of the data from the two sources in order to test the models accuracy. In terms of cleaning the data I wrote two scripts called clean.py and clean2.py. The data wasn't very clean and uniform. Certain fields were missing as well as the data containing an awful lot of non english characters. I had to spend a number of weeks cleaning the data to ensure that I used good data to train the models. I also used this time to validata a random sample of the data to ensure as best I could that the data was accuractely labelled. Due to the size of the data I was unable to verify all the data was accuracte but I was happy with the accuracy of the random sample so I am confident that the data is accurate.
-\subsection{Testing}
-I used a technique called cross validation to ensure the accuracy of my models. I used an 80/20 test train split. Validation was performed on the testing data after each susccessfult epoch of training and in the end a confusion matrix was calculated. I then compared and contrasted each of the confusion matrices of the various models, calculating the sensitvity and specificity of each model. I will dive deeper into this in the methodology chapter of this dissertation
-
-\subsection{Deployment}
-I decided that a useful way to interact with the model would be through the use of a chrome extension. The same principles of deployment I will discuss also apply to Mozilla Firefox. A chrome extension. Extensions are small software programs that customize the browsing experience. The model would be deployed to the cloud and the extension would allow the user to interact with the model via http. The extension would, with permission, send the news article to the model. The model would then classify it and return the result to the user in the form of a status indictor. Green for accuracte and red for fake. Now, the real world is very rarely this black and white and there are often degrees of truth in fake news but as this is more of a proof of concept rather than a full scale, production ready deployment, I am content with having two degrees of truth. Those being real and fake. 
