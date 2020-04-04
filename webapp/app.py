@@ -12,3 +12,15 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template("index.html")
+
+@app.route('/customsearch')
+def customSearch():
+    return render_template("customsearch.html")
+
+@app.route('/ModelExplained')
+def ModelExplained():
+    return render_template("modelsexplained.html")
+
+@app.route('/livedata')
+def LivedData():
+    return render_template("livedata.html")
