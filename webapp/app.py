@@ -13,14 +13,19 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route('/customsearch')
-def customSearch():
-    return render_template("customsearch.html")
+@app.route('/index.html')
+def returnIndex():
+    return render_template("index.html")
 
-@app.route('/ModelExplained')
-def ModelExplained():
-    return render_template("modelsexplained.html")
+@app.route('/charts.html')
+def returnCharts():
+    return render_template("charts.html")
 
-@app.route('/livedata')
-def LivedData():
-    return render_template("livedata.html")
+@app.route('/BigIdeas.html')
+def returnBigIdeas():
+    return render_template("BigIdeas.html")
+
+@app.route('/combat.html')
+def returnCombat():
+    return render_template("combat.html")
+    
