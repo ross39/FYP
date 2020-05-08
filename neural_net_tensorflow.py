@@ -84,7 +84,7 @@ def model_fn(features, labels, mode):
 def main():
     # Get the training and testing data from getEmbeddings
     train_data, eval_data, train_labels, eval_labels = \
-        getEmbeddings("Data/News_Dataset/news_dataset2.csv")
+        getEmbeddings("Data/News_Dataset/ultimate.csv")
     train_labels = train_labels.reshape((-1, 1)).astype(np.int32)
     eval_labels = eval_labels.reshape((-1, 1)).astype(np.int32)
 

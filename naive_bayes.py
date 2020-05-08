@@ -12,7 +12,7 @@ def plot_cmat(yte, ypred):
     plt.show()
 
 
-xtr,xte,ytr,yte = getEmbeddings("Data/News_Dataset/news_dataset2.csv")
+xtr,xte,ytr,yte = getEmbeddings("Data/News_Dataset/ultimate.csv")
 np.save('./xtr', xtr)
 np.save('./xte', xte)
 np.save('./ytr', ytr)
