@@ -28,4 +28,8 @@ def returnBigIdeas():
 @app.route('/combat.html')
 def returnCombat():
     return render_template("combat.html")
+
+@app.route('/ModelData.html')
+def returnmodelData():
+    return render_template("ModelData.html")
     

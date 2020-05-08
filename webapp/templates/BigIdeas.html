@@ -1,0 +1,125 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Big ideas behind machine learning</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">What is Machine learning?</h3>
+  <img src="/static/ML.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>Machine learning is the study of computer algorithms that improve automatically through experience</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">How does it work?</h3>
+  <p>Machine learning involves computers discovering how they can perform tasks without being explicitly programmed to do so. For simple tasks assigned to computers, it is possible to program algorithms telling the machine how to execute all steps required to solve the problem at hand; on the computer's part, no learning is needed. 
+    For more advanced tasks, it can be challenging for a human to manually create the needed algorithms. In practice, it can turn out to be more effective to help the machine develop its own algorithm, 
+    rather than have human programmers specify every needed step. We can do this by supplying the computer with lots of data. For example we can give thousands of imgaes of cats and dogs. Then over time
+    Using these machine learning algorithms, the computer will learn to tell the difference between a cat and a dog. Then when you you give it an image of a cat or dog 
+    which it has never seen before, hopefully it will answer correctly </p>
+  </a>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+    <h3 class="margin">Why is this important?</h3>
+    <p>The example I gave of telling the difference between cats and dogs is pretty trivial. However machine learning is far more than just 
+        telling the difference between cats and dogs. Machine learning is being used more and more in day to day life. Many people use machine learning
+         applications without even realising it. These include virtual assistanst such as Siri and Alexa, traffic predictions on google maps,
+        monitoring CCTV, social media services, email spam and malware filtering and online fraud detection. So you can see that machine learning
+        isn't just something from a science fiction book. Now while modern machine learning is a long way away from science fiction
+        sentient machines, It is revolutionising the modern world. </p>
+    </a>
+  </div>
+  
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">What are the main methods of machine learning? </h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Supervised learning</p>
+      <p>Lets say we have an x-ray image and we want to train a model to detect broken bones. We could gather a large
+          dataset of x-ray images of broken bones and then label them as such. We could then train the machine to recognise
+          the various patterns of broken bones in an x-ray. It is called supervised learning because the process of an algorithm learning from the training dataset can be thought of
+          as a teacher supervising the learning process. 
+      </p>
+      
+    </div>
+    <div class="col-sm-4"> 
+      <p>Reinforcement learning</p>
+      <p>Lets say we're playing a game of chess. Now in chess each player gets one move each turn so each player must consider their 
+      moves. There can be many good moves and many bad moves. However over time, by playing the game, we learn what constitutes a good 
+      move and what constititues a bad move. This is callsed reinforcement learning. Reinforcement learning is an area of machine learning concerned with how software agents ought to take actions in 
+      an environment in order to maximize the notion of cumulative reward.</p>
+    </div>
+    <div class="col-sm-4"> 
+      <p>Unsupervised learning</p>
+       <p> supervised learning we used the example of a teacher. We said that in supervised leaning the machine learns from labelled examples.
+       The problem with this sometimes is that there is far more unlabelled data than labelled data. Therefore wouldn't it be pretty cool if we 
+       could give the machine a whole bunch of data and leave it to its own devices to learn from the data. In essence we are getting the machine 
+       to teach itself from the data. It would learn to recognise the patterns in the data and learn from those despite them not being labelled.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+</body>
+</html>
